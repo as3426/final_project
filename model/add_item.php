@@ -4,7 +4,7 @@ require_once('todo_db.php');
 $newitem=$_GET['newitem'];
 $listid=$_GET['listid'];
 add_item($newitem,$listid);
-
+//redirect to index.php after adding item
 
 header("Location: ../index.php");
 ?>
