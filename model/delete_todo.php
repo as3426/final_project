@@ -3,5 +3,6 @@
 require_once('todo_db.php');
 $id=$_GET['id'];
 delete_todo($id);
+//redirect to inex.php after deletion
 header("Location: ../index.php");
 ?>
