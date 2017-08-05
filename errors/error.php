@@ -1,6 +1,9 @@
-<?php include '../view/header.php'; ?>
+<html>
+<link rel="stylesheet" type="text/css"  href="/~as3426/final_project/main.css">
+
 <main>
-    <h1>Error</h1>
+    <h1 class="error">An Error has occurred</h1>
     <p class="first_paragraph"><?php echo $error; ?></p>
 </main>
 <?php include '../view/footer.php'; ?>
+</html>
