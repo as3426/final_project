@@ -5,6 +5,6 @@ require_once('Todo.php');
 $id=$_GET['todo_id'];
 $item_id=$_GET['item_id'];
 delete_item($id,$item_id);
-//after deletion redirect to index.php
+//after deletion of item  redirect to index.php
 header("Location: ../index.php");
 ?>
