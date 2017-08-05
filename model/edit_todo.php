@@ -50,7 +50,7 @@ foreach($todo_item_array as $item)
 <a href="update_status.php?status=<?php echo $todo_status_array[$ctr]; ?>&item_id=<?php echo $todo_rowid[$ctr];
  ?>">Toggle completion status</a>
   </td><td>
-  <!-- form to update the name of this item -->
+  <!-- form to update the name of this item   -->
   <form action="change_item_name.php" method="get">
 New Name:  <input type="text" name="item_name" />
 <br/><br/><input type="hidden" name="item_id" value="<?php echo $todo_rowid[$ctr] ?>"/>
